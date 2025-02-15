@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:black;
+}
+
+#startBtn{
+    cursor: pointer;
+
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.color-button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+#red { background-color: red; }
+#green { background-color: green; }
+#blue { background-color: blue; }
+#yellow { background-color: rgb(122, 122, 7); }
+
+.color-button.active {
+    opacity: 1;
+}
+
